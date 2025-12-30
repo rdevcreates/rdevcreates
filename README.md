@@ -1,35 +1,127 @@
-# Hi, I'm Rdev 👋
+# 🌐 Rdev Portfolio
 
-🚀 Web & Mobile Developer  
-🎓 Currently learning & building cool stuff  
-💡 Love clean code, best practice, and problem solving
+A personal portfolio and mini-platform showcasing my work, skills, and prototyping experiments around modern web development 🚀
+
+This project goes beyond a static portfolio — it includes tools, reusable UI components, and internal utilities I use to test ideas, iterate, and refine workflows.
+
+🔗 **Live Demo:** https://rdevcreates.my.id
+
+---
+
+## 🎯 Goals
+
+- Show real approach — not just UI demos
+- Practice clean architecture & best practices
+- Build reusable components and internal tools
+- Central hub for work, contact, and experiments
+
+**Target audience**
+
+- ✔ Recruiters
+- ✔ Freelance clients
+- ✔ Developers
+
+---
+
+## 🔥 Main Features
+
+- ⚡ Vite — super fast dev & build
+- 🎨 React + TailwindCSS
+- 🌗 Light / Dark mode
+- 🌍 Multi-language (EN / ID)
+- 🧩 Modular & reusable components
+- 🗂 Project + certificates section
+- 🧠 SEO utilities
+- 📄 PDF export helpers
+- 🎭 Lottie animations
+- 🏗 Built-in **Wireframe Builder**
+
+---
+
+## 🛠 Tech Stack
+
+### Core
+
+- React (TypeScript)
+- Vite
+- TailwindCSS
+
+### Architecture & Utilities
+
+- Context API
+- Custom hooks
+- Zod (schema validation)
+- Registry pattern
+- i18n JSON localization
+
+### Extras
+
+- Lottie animations
+- PDF export tools
+- Canvas visual experiments
+
+**Deployment**
+
+- cPanel
+
+---
+
+## 📂 Project Structure (simplified)
+
+```bash
+app/               # App shell & routes
+components/        # UI + layout + feature components
+features/          # Complex modules (builder, projects, etc)
+pages/             # Route-level pages
+i18n/              # Localization files (EN/ID)
+lib/               # SEO, theme, helpers
+hooks/             # Custom hooks
+styles/            # Global styles
+assets/            # Images, icons, lottie
 
 
-### 🛠 Tech I Use
+🧰 Wireframe Builder (Highlight)
 
-- **Frontend:** React, Next.js, Tailwind, Bootstrap
-- **Backend:** Laravel, Node.js, FastAPI, Flask
-- **Mobile:** Flutter, React Native
-- **Database:** MySQL, PostgreSQL
-- **Tools:** Git, VS Code
+A built-in tool to quickly prototype landing pages:
 
+configurable sections
 
-### ⭐ Featured Projects
+theme system
 
-🔹 [Coffee Machine](link) — Simple app for learning logic  
-🔹 [Nike Shop](link) — Flutter UI + state management  
-🔹 [Portfolio](link) — Personal portfolio with TypeScript
+generators
 
+PDF / Hi-Fi export
 
-### 🌱 Currently Learning
-- Clean Architecture
-- API design
-- Testing
+schema validation (Zod)
+
+Located at:
+
+features/wireframe-builder
 
 
-### 🎯 Next Goals
-- Build SaaS mini project
-- Contribute to open source
+Includes:
+
+✔ Editors & renderers
+
+✔ Validation schema
+
+✔ AI prompt helpers
+
+✔ Design tokens & themes
+
+This represents thinking beyond UI — workflow & tooling.
+
+![LightEn](public/light-en.png)
+![DarkEn](public/dark-en.png)
+![LightId](public/light-id.png)
+![DarkId](public/dark-id.png)
+
+▶️ Development
+npm install
+npm run dev
+npm run build
+npm run preview
 
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=rdevcreates&show_icons=true)
+Node LTS recommended.
+```
